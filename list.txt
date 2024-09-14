@@ -70,3 +70,5 @@ m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-at
 ! Hide shorts category on homepage
 m.youtube.com##ytm-chip-cloud-chip-renderer:has(.yt-core-attributed-string:has-text(/^Shorts$/i))
 
+! Hide Udemy Note Feature
+udemy.com##div[class^="video-bookmark--"]:style(visibility: hidden !important;)
