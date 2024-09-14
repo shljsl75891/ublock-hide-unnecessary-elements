@@ -52,3 +52,6 @@ www.youtube.com##ytm-chip-cloud-chip-renderer:has([aria-label="Shorts"])
 
 ! Hide shorts sections on search page
 m.youtube.com##ytm-shorts-lockup-view-model:upward(grid-shelf-view-model)
+
+! Hide Udemy Note Feature
+udemy.com##div[class^="video-bookmark--"]:style(visibility: hidden !important;)
